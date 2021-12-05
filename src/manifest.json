@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "author": "Liang Shaozhan",
+
+  "name": "History As Bookmark",
+  "description": "Browser extension to make your browsing history become bookmarks automatically in persistent way and searchable in address bar",
+  "version": "1.0.1",
+  "omnibox": { "keyword" : "h" },
+  "icons": {
+    "16": "logo.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "history",
+    "bookmarks",
+    "tabs"
+  ]
+}
