@@ -4,7 +4,7 @@
 
   "name": "History As Bookmark",
   "description": "Browser extension to make your browsing history become bookmarks automatically in persistent way and searchable in address bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "omnibox": { "keyword" : "h" },
   "icons": {
     "16": "logo.png"
